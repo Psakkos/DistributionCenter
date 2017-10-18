@@ -20,7 +20,11 @@ function setNumber (){
 }
 function primePrime(){
   let state= 100*Math.random;
-  if(
-    
-  )
+  if(state>50){
+    primePrime= true;
+  }
+  else{
+    primePrime= false;
+  }
+  return primePrime;
 }
