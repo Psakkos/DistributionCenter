@@ -1,7 +1,7 @@
 const Node = require('./node.js');
 
 const LinkedList = function(){
-  let root = new Node(udefined);
+  let root = new Node(undefined);
   let length = 0;
   let here = root;
   let lastnode = root;
