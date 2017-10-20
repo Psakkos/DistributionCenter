@@ -1,4 +1,3 @@
-
 const Product= function(){
   let name= makeName;
   let price= setNumber;
@@ -25,6 +24,6 @@ function primePrime(){
   }
   else{
     primePrime= false;
-  }
+    }
   return primePrime;
 }
