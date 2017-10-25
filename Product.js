@@ -20,10 +20,12 @@ function setNumber (){
 function primePrime(){
   let state= 100*Math.random;
   if(state>50){
-    primePrime= true;
+    return true;
   }
   else{
-    primePrime= false;
+    return false;
     }
-  return primePrime;
-}
+  }
+return(name,price,space,prime)
+
+module.exports = Product;
